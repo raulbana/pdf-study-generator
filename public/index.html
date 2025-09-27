@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Study Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📄 PDF Study Generator</h1>
+      <form id="pdfForm">
+        <div class="form-group">
+          <label for="pdfName">Nome do PDF (sem extensão):</label>
+          <input
+            type="text"
+            id="pdfName"
+            name="pdfName"
+            required
+            placeholder="minha-apostila"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="htmlContent">Conteúdo HTML:</label>
+          <textarea
+            id="htmlContent"
+            name="htmlContent"
+            required
+            placeholder="Cole seu HTML aqui..."
+          ></textarea>
+        </div>
+
+        <button type="submit" id="generateBtn">Gerar PDF</button>
+      </form>
+
+      <div id="status" class="status"></div>
+
+      <div class="example-section">
+        <h3>💡 Exemplo de HTML</h3>
+        <p>
+          Você pode usar qualquer HTML válido. Aqui está um exemplo simples:
+        </p>
+        <div class="example-code">
+          &lt;!DOCTYPE html&gt;<br />
+          &lt;html&gt;<br />
+          &lt;head&gt;<br />
+          &nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br />
+          &nbsp;&nbsp;&lt;title&gt;Minha Apostila&lt;/title&gt;<br />
+          &nbsp;&nbsp;&lt;style&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;body { font-family: Arial, sans-serif; margin:
+          40px; }<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;h1 { color: #333; }<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;.highlight { background-color: #ffff99; }<br />
+          &nbsp;&nbsp;&lt;/style&gt;<br />
+          &lt;/head&gt;<br />
+          &lt;body&gt;<br />
+          &nbsp;&nbsp;&lt;h1&gt;Capítulo 1: Introdução&lt;/h1&gt;<br />
+          &nbsp;&nbsp;&lt;p&gt;Este é um &lt;span
+          class="highlight"&gt;exemplo&lt;/span&gt; de conteúdo.&lt;/p&gt;<br />
+          &nbsp;&nbsp;&lt;h2&gt;Tópico Importante&lt;/h2&gt;<br />
+          &nbsp;&nbsp;&lt;ul&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Ponto 1&lt;/li&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Ponto 2&lt;/li&gt;<br />
+          &nbsp;&nbsp;&lt;/ul&gt;<br />
+          &lt;/body&gt;<br />
+          &lt;/html&gt;
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
