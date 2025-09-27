@@ -1,5 +1,8 @@
 # PDF Study Generator
 
+![Interface Web](assets/screenshot.png)
+![Exemplo de PDF Gerado](assets/image.png)
+
 Este projeto é uma ferramenta para gerar materiais de estudo em PDF a partir de conteúdos personalizados. Ele facilita a organização e exportação de textos, perguntas e respostas para o formato PDF, auxiliando estudantes e professores.
 
 ## Funcionalidades
@@ -12,17 +15,17 @@ Este projeto é uma ferramenta para gerar materiais de estudo em PDF a partir de
 ## Instalação
 
 1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/pdf-study-generator.git
-    ```
+   ```bash
+   git clone https://github.com/seu-usuario/pdf-study-generator.git
+   ```
 2. Instale as dependências:
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 3. Execute o projeto:
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 ## Uso
 
