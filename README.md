@@ -1,7 +1,10 @@
 # PDF Study Generator
 
-![Interface Web](assets/screenshot.png)
-![Exemplo de PDF Gerado](assets/image.png)
+Interface
+![Interface Web](assets/image.png)
+
+Exemplo de PDF
+![Exemplo de PDF Gerado](assets/screenshot.png)
 
 Este projeto é uma ferramenta para gerar materiais de estudo em PDF a partir de conteúdos personalizados. Ele facilita a organização e exportação de textos, perguntas e respostas para o formato PDF, auxiliando estudantes e professores.
 
