@@ -35,11 +35,3 @@ Este projeto é uma ferramenta para gerar materiais de estudo em PDF a partir de
 1. Adicione o conteúdo de estudo na interface.
 2. Organize perguntas e respostas conforme necessário.
 3. Exporte o material para PDF.
-
-## Contribuição
-
-Contribuições são bem-vindas! Abra uma issue ou envie um pull request.
-
-## Licença
-
-Este projeto está sob a licença MIT.
